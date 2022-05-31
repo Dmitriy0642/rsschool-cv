@@ -1,0 +1,212 @@
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  *,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :focus,:active{outline: none;}
+  a:focus,a:active{outline: none;}
+  nav,footer,header,aside{display: block;}
+  html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  input,button,textarea{font-family:inherit;}
+  input::-ms-clear{display: none;}
+  button{cursor: pointer;}
+  button::-moz-focus-inner {padding:0;border:0;}
+  a, a:visited{text-decoration: none;}
+  a:hover{text-decoration: none;}
+  ul li{list-style: none;}
+  img{vertical-align: top;}
+  h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+  /*--------------------*/
+
+  .wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: #272424;
+  }
+  .header{
+      margin: 45px 0 0 0;
+  }
+
+  .container{
+      margin: 0 auto;
+      width: 1170px;
+  }
+
+  .header_flex_box{
+      display: flex;
+      justify-content: end;
+  }
+
+  .list_menu{
+      display: flex;
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 24px;
+      color: #FFFFFF;
+      border: 1px solid white;
+  }
+
+  .list_menu li{
+      padding: 0 40px 0 0;
+  }
+
+  .section{
+      margin: 104px 0 0 0;
+  }
+
+  .section_title{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .flex_box_section{
+      display: flex;
+  }
+
+  .left_content{
+    width: 800px;
+    height: 592px;
+    background-color: #524E4E;
+    margin: 104px 0 0 0;
+  }
+
+  .left_title{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin: 41px 0 0 7px;
+  }
+
+  .left_text{
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin: 61px 0 0 7px;
+  }
+
+  .left_title_2{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin: 61px 0 0 7px;
+  }
+
+  .list_menu_hobby{
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin: 61px 0 0 7px;
+    
+  }
+
+
+  .right_content{
+      margin: 104px 0 0 0;
+      width: 542px;
+      height: 592px;
+      background-color: #373232;
+  }
+
+  .right_title{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin: 41px 263px 0 63px;
+  }
+
+  .phone{
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin: 32px 27px 0 65px;
+  }
+
+  .discord{
+      margin: 47px 75px 0 65px;
+      font-weight: 900;
+    font-size: 27px;
+    line-height: 33px;
+    color: #FFFFFF;
+  }
+
+  .right_title_2{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin:112px 308px 0 64px;
+    width: 170px;
+  }
+
+
+  .list_skils{
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin: 15px 365px 0 65px;
+  }
+
+  .list_skils li{
+      margin:15px 0 0 0;
+  }
+
+  .list_skils li:nth-last-child(4){
+      margin: 0;
+  }
+
+  .footer{
+      margin: 150px 0 0 0;
+  }
+
+  .footer_flex_box{
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .Firts{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+  }
+
+  .Twoo{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+  }
+
+  .Tree{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+  }
